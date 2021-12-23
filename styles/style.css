@@ -4,7 +4,8 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -73,15 +74,13 @@
 
 .description {
   display: flex;
-  justify-content: center;
-  box-sizing: border-box;
+  justify-content: center;  
 }
 
 .two-columns {
   width: 80%;
   display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
+  justify-content: space-between;  
   margin-top: 100px;
 }
 
@@ -114,7 +113,6 @@
 
 .digits {
 margin: 100px auto;
-box-sizing: border-box;
 position: relative;
 }
 
@@ -148,7 +146,6 @@ position: relative;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
-  box-sizing: border-box;
 }
 
 .table__cell {
