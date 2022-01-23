@@ -18,7 +18,7 @@
 
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
@@ -28,7 +28,7 @@
             </p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
@@ -66,21 +66,21 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="720" height="405" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="720" height="405" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+        </ul>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык,
               чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам.
               Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -198,10 +198,11 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li><a class="resources__logo" href="https://arzamas.academy/"><img alt="логотип проекта Арзамас" src="./images/resources-arzamas.svg"></a></li>
-          <li><a class="resources__logo" href="https://nplus1.ru/"><img alt="логотип проекта n+1" src="./images/resources-n1.svg"></a></li>
-          <li><a class="resources__logo" href="https://strelka.com/"><img alt="логотип проекта Стрелка" src="./images/resources-strelka.svg"></a></li>
-          <li><a class="resources__logo" href="https://polka.academy/"><img alt="логотип проекта Полка" src="./images/resources-polka.svg"></a></li>
+          <!-- здесь не совсем поняла из комментария, нужно создать принципиально новый класс не по брифу, либо добавить класс в <img>, перенеся его из <a>. -->
+          <li><a href="https://arzamas.academy/"><img class="resources__logo" alt="логотип проекта Арзамас" src="./images/resources-arzamas.svg"></a></li>
+          <li><a href="https://nplus1.ru/"><img class="resources__logo" alt="логотип проекта n+1" src="./images/resources-n1.svg"></a></li>
+          <li><a href="https://strelka.com/"><img class="resources__logo" alt="логотип проекта Стрелка" src="./images/resources-strelka.svg"></a></li>
+          <li><a href="https://polka.academy/"><img class="resources__logo" alt="логотип проекта Полка" src="./images/resources-polka.svg"></a></li>
         </ul>
       </section>
     </main>

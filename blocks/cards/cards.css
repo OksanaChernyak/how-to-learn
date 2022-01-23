@@ -4,6 +4,7 @@
   width: 920px;
   flex-direction: row;
   justify-content: flex-start;
-  margin: auto;
+  padding: 0;
+  margin: 0 auto;
   list-style-type: none;
 }

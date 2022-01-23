@@ -1,9 +1,10 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-}
+}  
 
 .resources__logo:hover {
   opacity: 50%;
   transition: opacity 2s;
 }
+

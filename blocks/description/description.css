@@ -1,4 +1,7 @@
 .description {
   display: flex;
   justify-content: center;
+  margin: 100px 0 0;
 }
+
+/* удалила верхние margin: 100px из two-columns__brief и two-columns__paragraph:first-child, а добавила их сюда, тк тогда они не добавляются к марджинам блока oakley*/
